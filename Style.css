@@ -1,22 +1,18 @@
 /* VARIABLES     */
 /*...............*/
-
 :root{
     --color-white: hsl(0, 0%, 100%);
     --color-light-gray:hsl(204, 6%, 84%);
     --color-blue:hsl(215, 16%, 51%);
     --color-dark-blue:hsl(218,44%,22%);
 }
-
 /*   Base Styles  */
 /*...............*/
-
 *,
 *::before,
 *::after{
      box-sizing: border-box;
 }
-
 body{
     margin: unset;
     -webkit-text-size-adjust: none;
@@ -28,12 +24,10 @@ body{
     display: grid;
     place-items: center;
 }
-
 img{
     max-width: 100%;
     height: auto;
 }
-
 /*   QR card  */
 main{
 background-color: var(--color-white);
